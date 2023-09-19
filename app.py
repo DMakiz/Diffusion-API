@@ -41,7 +41,9 @@ def diffusion_app():
                     StableDiffusionControlNetInpaintGenerator.app()
 
     app.queue(concurrency_count=1)
+    print("Before launch")
     app.launch(debug=True, max_threads=True, share=True, inbrowser=True)
+    print("After launch")
 
 
 if __name__ == "__main__":

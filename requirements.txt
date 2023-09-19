@@ -1,0 +1,9 @@
+transformers 
+bitsandbytes==0.35.0 
+xformers 
+controlnet_aux 
+diffusers==0.18.1
+imageio
+gradio
+controlnet_aux
+mediapipe

@@ -11,7 +11,7 @@ from controlnet_aux import (
     OpenposeDetector,
     PidiNetDetector,
     SamDetector,
-   
+    ZoeDetector,
 )
 
 import numpy as np
@@ -86,11 +86,10 @@ PREPROCCES_DICT = {
     "LineartAnime": LineartAnimeDetector.from_pretrained(
         "lllyasviel/Annotators"
     ),
-    
+    "Zoe": ZoeDetector.from_pretrained("lllyasviel/Annotators"),
     "Canny": CannyDetector(),
     "ContentShuffle": ContentShuffleDetector(),
     "MediapipeFace": MediapipeFaceDetector(),
     "ScribbleXDOG": scribble_xdog,
     "None": none_preprocces
 }
-    

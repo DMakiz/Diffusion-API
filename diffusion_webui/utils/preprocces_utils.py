@@ -11,7 +11,7 @@ from controlnet_aux import (
     OpenposeDetector,
     PidiNetDetector,
     SamDetector,
-    ZoeDetector,
+   
 )
 
 import numpy as np

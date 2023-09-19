@@ -10,7 +10,6 @@ stable_inpiant_model_list = [
 
 controlnet_model_list = [
     "lllyasviel/control_v11p_sd15_canny",
-    "lllyasviel/control_v11f1p_sd15_depth",
     "lllyasviel/control_v11p_sd15_openpose",
     "lllyasviel/control_v11p_sd15_scribble",
     "lllyasviel/control_v11p_sd15_mlsd",
